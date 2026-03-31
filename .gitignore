@@ -19,6 +19,10 @@ htmlcov/
 # uv
 # uv.lock is committed intentionally
 
+# Caches (generated at root by ruff/tsc)
+.ruff_cache/
+tsconfig.tsbuildinfo
+
 # Node
 node_modules/
 .next/
